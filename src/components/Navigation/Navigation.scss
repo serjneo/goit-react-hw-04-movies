@@ -1,0 +1,20 @@
+nav {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  font-weight: 500;
+  color: black;
+  font-size: 30px;
+  transition: all 250ms linear;
+}
+
+.link :hover {
+  transform: scale(0.8);
+}
+
+.activeLink {
+  color: red;
+}
